@@ -1,0 +1,50 @@
+# Comments
+
+Single line comment is written with a # char.
+
+# Numbers and math
+
+All general java operands are supported.
+
+(//)  forces integer division (useful on floats)
+
+round(10.0) = 10
+
+# Boolean
+
+True and False are boolean values
+
+# Strings
+
+* operator on strings multiplies the string
+
+
+Multiline string is written as:
+"""
+asdfasd
+asdf
+"""
+
+print function takes multiple "arguments" and prints them
+
+print "asdf", 1
+result = asdf 1
+
+len(string) - returns the length of the string
+
+# Files
+
+open(filename) - returns a file object from given filename
+read() - reads entire file and returns content
+close() - closes a file -> necessary after opening a file
+write(content) - writes content to file
+truncate() - empties the file
+readline() - reads one line of text
+exists(filename) - checks if file exists - exists in os.path module
+
+open() function takes a second parameter which can be 'w', 'r', 'a' and these parameters can have modifiers on them (like + modifier)
+default parameter is 'r' - read mode
+
+file does not need to be closed explicitly if it is opened and read in one line - like open(filename).read(). - Check this!!
+
+
